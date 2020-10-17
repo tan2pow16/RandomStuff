@@ -1,0 +1,52 @@
+﻿為保障各位資訊安全
+以下皆僅附上 urlscan.io 掃描紀錄
+若需取得原始網頁 HTML
+請點開掃描紀錄上 "HTTP" 欄位
+選擇所需檔案點擊 "Show response" 下載
+或者使用隔離環境 (如虛擬機) 開啟原始網頁連結
+(可於掃描紀錄頁面上取得)
+
+==============================================================
+
+吉客印电子商务有限公司 (www.giikin[.]com):
+https://urlscan.io/result/e5bfa7da-cbb1-47be-9953-4c6784f91a69
+
+looaon[.]com 上幾個有出現 giikin 字樣
+https://urlscan.io/result/1ef7ac04-d2bb-4a89-a8b8-fc2c503e61a6
+https://urlscan.io/result/66f28f00-69ad-4944-a0c8-0093b1bd0013
+https://urlscan.io/result/7fae4510-39d9-4e91-89a6-4dd20f178adf
+
+同時有出現 giikin[.]com 與 looaon[.]com 的疑似一頁式網購詐騙頁面
+https://urlscan.io/result/a6b35850-16e8-4c57-a1c0-170eb92a6488
+https://urlscan.io/result/47d53487-a0fe-413c-8e06-cba4bf915935
+
+*.boerlg[.]com:
+https://urlscan.io/result/20519f60-cbf8-43e1-a685-83d2976938f3
+
+*.leekmao[.]com:
+https://urlscan.io/result/88f2d80a-456e-400a-8f1e-c8aa37c7c5b4
+
+gimpee[.]com:
+https://urlscan.io/result/fd1d618d-d66a-4a7e-a511-cb3a92a4443e
+
+bersoao[.]com:
+https://urlscan.io/result/fd7b43e5-77b8-42d4-9635-018f8d08fe85
+
+tikoshop[.]com:
+https://urlscan.io/result/b5c7af29-8cce-4c0c-b0f8-774ac990d949
+
+hoillay[.]com:
+https://urlscan.io/result/f34e5f88-8b9b-43f5-9bf9-0b5b5871eaea
+
+aliwooy[.]com (from SSL cert. of bersoao[.]com):
+https://urlscan.io/result/8d51c704-b2da-4490-8bf3-af02158d3870
+
+maooduo[.]com (from SSL cert. of leekmao[.]com):
+https://urlscan.io/result/54a00849-9cce-4398-aa1e-306ddfe73180
+
+mofukoo[.]com (from SSL cert. of tikoshop[.]com):
+https://urlscan.io/result/beec4953-3cc8-4bad-9063-6e9a4adb2291
+
+navtet[.]com (from SSL cert. of boerlg[.]com, which ALSO links to looaon[.]com):
+https://urlscan.io/result/fa77b9fa-c83f-4784-b2ff-c0073d566f08
+
