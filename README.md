@@ -1,3 +1,3 @@
 # RandomStuff
 
-Some random codes I made in order to decrypt/unpack some Java malware packers.
+Some random codes I made or stuffs I gathered that I'd like to share.
