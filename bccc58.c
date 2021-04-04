@@ -11,16 +11,11 @@
 
 int main(int argc, char *argv[])
 {
-  char *line0;
-  char *line1;
-  char *cache;
-  size_t leng;
-  uint8_t idx;
-  ssize_t len;
-  leng = 0x13;
+  char *line0;  size_t leng;
+  char *line1;  uint8_t idx;  leng = 0x13;
+  char *cache;  ssize_t len;
 
-  line0 = malloc(0x14);
-  line1 = malloc(0x14);
+  line0 = malloc(0x14);       line1 = malloc(0x14);
   while((len = getline(&line1, &leng, stdin)) >= 0)
   {
     if(line0)
