@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
   {
     if(line0)
       for(idx = 0 ; (len > 1) && (idx < len) && (line1[idx] <= line0[idx]) ; idx++)
-        if(line1[idx] < line0[idx])
+        if(line0[idx] - line1[idx])
           return !!(fprintf(stdout, "false\n") - 6);
             // Why parsing and formatting strings when you don't have to? c:
 
