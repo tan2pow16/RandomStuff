@@ -3,8 +3,10 @@
 #include <inttypes.h>
 
 /*
- * Reddit r/badcode Bad Code Coding Challenge #58 submission.
  * Copyright (c) 2021, tan2pow16. All rights reserved.
+ *
+ * Reddit r/badcode Bad Code Coding Challenge #58 submission.
+ *  https://www.reddit.com/r/badcode/comments/maj3iw/bad_code_coding_challenge_58_are_these_dates_in/
  */
 
 int main(int argc, char *argv[])
