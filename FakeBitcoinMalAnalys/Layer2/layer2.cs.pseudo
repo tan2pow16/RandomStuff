@@ -93,7 +93,7 @@ public class Yd67bU30
 
     // Inst 212
     /**
-     * The instructions beyond this point just loads the content of local_8 as an MSIL assembly and execute the malicious content.
+     * The instructions beyond this point just load the contents of local_8 as a MSIL assembly and execute the malicious payload.
      */
   }
 }
