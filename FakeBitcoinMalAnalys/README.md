@@ -4,7 +4,8 @@
 A malware sample was found in the wild and was spam-distributed through likely-compromised Discord accounts. The spam message claims that the program would deliver one bitcoin to the victim.  
 
 ![Discord spam](spam.png)  
-<sup>Credit to an anonymous friend of mine for sharing this image.</sup>  
+<sup>Credit to [Princess Mortix](https://princessmortix.link/) for producing this image.</sup>  
+<sup>Also credit to an anonymous friend of mine for sharing the image.</sup>  
 
 ## Entry point
 The [sample](https://www.virustotal.com/gui/file/07717ef6caf01738d425452b88f449344d6747a87c7359e8515ced5ca3d6050b) was hosted on the popular file sharing service MEGA and had since been removed after a report was filed. The PE file is a RAR self-extracting (SFX) executable, with the set instruction shown below:  
