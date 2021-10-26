@@ -1,5 +1,6 @@
 # An Amateur Analysis of Fake Bitcoin Malware (Oct, 25, 2021)
 
+## Introduction
 A malware sample was found in the wild and was spam-distributed through likely-compromised Discord accounts. The spam message claims that the program would deliver one bitcoin to the victim.  
 
 ![Discord spam](spam.png)  
