@@ -16,7 +16,7 @@ The [sample](https://www.virustotal.com/gui/file/07717ef6caf01738d425452b88f4493
 After the first extraction, the [resulting executable](https://www.virustotal.com/gui/file/4dac22347ec139930492f579bbf47cce1dddd5756817dfc8ce06e231e457721d) is another self-executing RAR SFX file with password protection. The extraction is initiated by a batch script comming along in the previous package. Using the fact that non-existing environment variables decode to blank string with the length of 0, the obfuscated string is concentrated into a valid malicious command during runtime. The raw command and the extracted password can be found [here](Layer1/layer1.txt).
 
 ## 2<sup>nd</sup> Layer
-The 2<sup>nd</sup> layer PE is a heavily obfuscated MSIL executable, which both dnSpy and the newest version of ILSpy (as of Oct. 2021) fail to decompile.  
+The [2<sup>nd</sup> layer PE](https://www.virustotal.com/gui/file/31ae985e591fa53913db778892771e4ff08c389f83ff2cb8c64977a6d60992a4) is a heavily obfuscated MSIL executable, which both dnSpy and the newest version of ILSpy (as of Oct. 2021) fail to decompile.  
 
 ![layer2-obf](Layer2/obfuscated.png)  
 
